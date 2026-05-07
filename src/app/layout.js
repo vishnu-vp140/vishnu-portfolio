@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Vishnu Vuttarkar",
-  description: "Offensive Security Consultant — OSCP+ · PNPT · MSc Cyber Security.",
+  description: "Offensive Security Consultant - OSCP+ · PNPT · MSc Cyber Security.",
 };
 
 export default function RootLayout({ children }) {
