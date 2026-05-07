@@ -22,7 +22,7 @@ function getGreeting() {
 
 export default function Navbar() {
   const pathname = usePathname();
-  const [greeting, setGreeting] = useState("Good Morning");
+  const [greeting, setGreeting] = useState("");
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
