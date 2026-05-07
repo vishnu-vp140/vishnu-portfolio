@@ -15,6 +15,7 @@ const navLinks = [
 
 function getGreeting() {
   const h = new Date().getHours();
+  if (h >= 0 && h < 5) return "Up Late?";
   if (h < 12) return "Good Morning";
   if (h < 17) return "Good Afternoon";
   return "Good Evening";
