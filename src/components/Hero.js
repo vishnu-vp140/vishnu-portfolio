@@ -292,7 +292,7 @@ export default function Hero() {
           {/* Social links 2x2 */}
           <div className="sm:col-span-2 grid grid-cols-2 gap-3">
             {[
-              { label: "GitHub",         handle: "@vishnuvuttarkar",           href: "https://github.com/vishnuvuttarkar",    external: true  },
+              { label: "GitHub",         handle: "@vishnu-vp140",           href: "https://github.com/vishnu-vp140",    external: true  },
               { label: "LinkedIn",       handle: "/in/vishnuvp2002",           href: "https://linkedin.com/in/vishnuvp2002",  external: true  },
               { label: "Email",          handle: "vishnu0vuttarkar@gmail.com", href: "mailto:vishnu0vuttarkar@gmail.com",     external: false },
               { label: "Discord",        handle: "vishnu2385",        href: "https://discord.com/users/761475778084864010",external: true  },

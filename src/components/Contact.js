@@ -6,7 +6,7 @@ import { useReveal } from "./useReveal";
 const LINKS = [
   { label: "Email",    handle: "vishnu0vuttarkar@gmail.com", href: "mailto:vishnu0vuttarkar@gmail.com", external: false },
   { label: "LinkedIn", handle: "/in/vishnuvp2002",           href: "https://linkedin.com/in/vishnuvp2002", external: true },
-  { label: "GitHub",   handle: "@vishnuvuttarkar",           href: "https://github.com", external: true },
+  { label: "GitHub",   handle: "@vishnu-vp140",           href: "https://github.com", external: true },
 ];
 
 export default function Contact() {
