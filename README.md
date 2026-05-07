@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vishnu Vuttarkar — Personal Portfolio
 
-## Getting Started
+> Offensive Security Engineer · OSCP+ · CRTO · PNPT
 
-First, run the development server:
+A fully custom portfolio website built from scratch to showcase my cybersecurity work, certifications, research, and writing.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Live at **[vishnuvuttarkar.com](https://vishnuvuttarkar.com)**
+
+---
+
+## Stack
+
+- **Framework** — Next.js 14 (App Router)
+- **Styling** — Tailwind CSS (utility classes only)
+- **Language** — JavaScript (ES6+)
+- **Fonts** — Syne + Share Tech Mono via Google Fonts
+- **Images** — Next/Image
+- **Deployment** — Custom domain
+
+---
+
+## Pages
+
+| Route | Description |
+|-------|-------------|
+| `/` | Hero — intro, cert badges, social links |
+| `/work` | Security projects and writeups |
+| `/blog` | Certification prep guides and research notes |
+| `/about` | Profile, education, certifications, stats |
+| `/journey` | Interactive timeline of certs, events, education |
+| `/skills` | Full tools and technology arsenal |
+| `/contact` | Contact links and availability |
+
+---
+
+## Project Structure
+
+```
+src/
+├── app/                  # Next.js App Router pages
+│   ├── page.js           # Home (Hero)
+│   ├── work/
+│   │   ├── page.js       # Projects listing
+│   │   └── [slug]/       # Individual project writeups
+│   ├── blog/
+│   │   ├── page.js       # Blog listing
+│   │   └── [slug]/       # Individual blog posts
+│   ├── about/page.js
+│   ├── journey/page.js
+│   ├── skills/page.js
+│   └── contact/page.js
+├── components/           # Reusable components
+│   ├── Navbar.js
+│   ├── Hero.js
+│   ├── Footer.js
+│   ├── SectionHeader.js
+│   └── useReveal.js      # Scroll animation hook
+└── data/
+    ├── projects/         # One file per project
+    │   ├── index.js
+    │   ├── mfa-assessment.js
+    │   ├── alexa-pentest.js
+    │   ├── active-directory.js
+    │   ├── honeypot-gcp.js
+    │   └── portfolio-website.js
+    └── blog/             # One file per post
+        ├── index.js
+        ├── oscp-prep.js
+        └── crto-prep.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Adding Content
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**New project** — create a file in `src/data/projects/`, export the object, and add one import line to `src/data/projects/index.js`.
 
-## Learn More
+**New blog post** — create a file in `src/data/blog/`, export the object, and add one import line to `src/data/blog/index.js`.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Running Locally
 
-## Deploy on Vercel
+```bash
+npm install
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open [http://localhost:3000](http://localhost:3000)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## Certifications
+
+- OSCP+ — Offensive Security (Jan 2026)
+- CRTO — Zero-Point Security (Apr 2026)
+- PNPT — TCM Security (Jul 2025)
+- Google Cybersecurity Professional (Jul 2025)
