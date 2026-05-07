@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Vishnu Vuttarkar | Offensive Security Engineer",
+  title: "Vishnu Vuttarkar",
   description: "Offensive Security Consultant — OSCP+ · PNPT · MSc Cyber Security.",
 };
 
