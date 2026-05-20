@@ -8,7 +8,6 @@ const LINKS = [
   { label: "LinkedIn", handle: "/in/vishnuvp2002",                 href: "https://linkedin.com/in/vishnuvp2002", external: true },
   { label: "GitHub",   handle: "@vishnuvuttarkar",                 href: "https://github.com", external: true },
   { label: "Discord",  handle: "vishnuvp2385",                     href: "https://discord.com/users/761475778084864010", external: true },
-  { label: "Phone",    handle: "+44 7553 995754",                  href: "tel:+447553995754", external: false },
 ];
 
 export default function ContactPage() {
