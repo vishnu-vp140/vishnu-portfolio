@@ -5,7 +5,7 @@ import { useReveal } from "@/components/useReveal";
 const TIMELINE = [
   {
     date: "Jul 2025",type: "event",dot: "bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.8)]",
-    title: "Joined Pen Test Partners — PTP Academy",org: "Pen Test Partners",
+    title: "Joined Pen Test Partners - PTP Academy",org: "Pen Test Partners",
     desc: "Joined PTP Academy at Pen Test Partners, one of the UK's leading penetration testing consultancies. Starting my professional career in offensive security.",
     tags: ["Penetration Testing", "Consultancy", "PTP Academy"],highlight: true,
 },
