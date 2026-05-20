@@ -4,6 +4,12 @@ import { useReveal } from "@/components/useReveal";
 
 const TIMELINE = [
   {
+    date: "Jul 2025",type: "event",dot: "bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.8)]",
+    title: "Joined Pen Test Partners — PTP Academy",org: "Pen Test Partners",
+    desc: "Joined PTP Academy at Pen Test Partners, one of the UK's leading penetration testing consultancies. Starting my professional career in offensive security.",
+    tags: ["Penetration Testing", "Consultancy", "PTP Academy"],highlight: true,
+},
+  {
     date: "Apr 2026", type: "cert", dot: "bg-yellow-400 shadow-[0_0_10px_rgba(250,204,21,0.8)]",
     title: "CRTO - Certified Red Team Operator", org: "Zero-Point Security",
     desc: "Completed the Red Team Ops course and passed the CRTO exam, covering Cobalt Strike C2, red team infrastructure, OPSEC tradecraft, and advanced Active Directory attacks including persistence and evasion techniques.",
