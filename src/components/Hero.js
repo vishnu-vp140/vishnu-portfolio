@@ -274,19 +274,17 @@ export default function Hero() {
           className="grid grid-cols-1 sm:grid-cols-3 gap-3"
           style={{ opacity: mounted ? 1 : 0, transition: "opacity 0.6s ease 0.95s" }}
         >
-          {/* Open to work */}
-          <div className="bg-white/[0.03] border border-white/[0.07] rounded-2xl p-5 hover:bg-white/[0.05] transition-all duration-300">
-            <div className="w-10 h-10 rounded-xl bg-white/[0.05] border border-white/[0.08] flex items-center justify-center mb-4">
-              <div className="w-4 h-4 rounded-full border-2 border-white/30" />
+           {/* PTP card */}
+          <div className="bg-white/[0.05] border border-white/10 rounded-2xl p-5 hover:bg-white/[0.08] transition-all duration-300">
+            <div className="w-10 h-10 rounded-xl bg-emerald-500/15 border border-emerald-500/25 flex items-center justify-center mb-4">
+              <span className="text-emerald-400 font-bold text-xs font-mono">PTP</span>
             </div>
             <div className="flex items-center gap-2 mb-2">
-              <span
-                className="w-2 h-2 rounded-full bg-emerald-400"
-                style={{ animation: "pulseGlow 2s ease-in-out infinite" }}
-              />
+              <span className="w-2 h-2 rounded-full bg-emerald-400" style={{ animation: "pulseGlow 2s ease-in-out infinite" }} />
+              <span className="text-emerald-300 text-xs font-medium">Employed</span>
             </div>
-            <p className="text-white font-bold text-base">Open to Work</p>
-            <p className="text-white/35 text-sm mt-0.5">Available for hire</p>
+            <p className="text-white font-bold text-base">Pen Test Partners</p>
+            <p className="text-white/65 text-sm mt-0.5">Associate Security Consultant</p>
           </div>
 
           {/* Social links 2x2 */}
